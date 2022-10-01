@@ -2,7 +2,7 @@
 const Navbar = () => {
     return ( 
         <div>
-           <nav className="flex justify-between p-5">
+           <nav className="flex justify-between p-5 mt-5 m-10  sm:mx-20">
                  
            <h1 className="text-4xl font-poppins font-medium text-gray-800">Soetan.dev</h1>
 

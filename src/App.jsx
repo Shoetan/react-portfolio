@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Hero from './components/Hero'
 import Navbar from './components/Nav'
+import Projects from './components/Projects'
 import Tech from './components/TechStack'
 
 
@@ -8,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className=''>
     {/* Navbar */}
       <Navbar/>
 
@@ -16,9 +17,13 @@ function App() {
 
       <Hero/>
 
-      {/* Tech stack */}
+      {/* Tech stack section */}
 
      <Tech/>
+
+     {/* Projects section */}
+
+     <Projects/>
 
     </div>
   )
