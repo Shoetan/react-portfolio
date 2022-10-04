@@ -21,49 +21,49 @@ const Tech = () => {
 
             <div className='w-96 mx-auto flex flex-wrap justify-center gap-5 sm:max-w-2xl '>
 
-                <div className=''>
+                <div className=' text-center'>
                     <h4 className='text-lg font-poppins text-center'>css</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={css} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={css} alt="css" loading='lazy' />
                 </div>
 
-                <div className='text-center '>
+                <div className='text-center'>
                     <h4 className='text-lg font-poppins'>express js</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={express} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={express} alt="css"  loading='lazy'/>
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>firebase</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={firebase} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={firebase} alt="css" loading='lazy' />
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>github</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={github} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={github} alt="css" loading='lazy' />
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>html</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={html} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={html} alt="css" loading='lazy'/>
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>node js</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={nodejs} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={nodejs} alt="css" loading='lazy'/>
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>react js</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={react} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={react} alt="css" loading='lazy'/>
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>Tailwind CSS</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={Tailwind} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={Tailwind} alt="css" loading='lazy' />
                 </div>
 
                 <div className='text-center'>
                     <h4 className='text-lg font-poppins'>javascript</h4>
-                    <img width = {100} height = {100} className='hover:opacity-70' src={js} alt="css" />
+                    <img width = {100} height = {100} className='hover:opacity-70' src={js} alt="css" loading='lazy' />
                 </div>
                
             </div>

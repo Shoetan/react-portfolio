@@ -10,28 +10,54 @@ const Projects = () => {
             </div>
 
             {/* Projects card */}
-            <div className='w-96 mx-auto sm:flex gap-6'>
-                <div className='border rounded-b-2xl mb-5 shadow-xl sm:basis-4/12'>
-                    <img src={linkedin} alt="" className=''/>
-                    <div className='flex justify-around p-4'>
+            <div className='flex flex-col w-full mx-auto sm:flex-row gap-20 justify-center items-center'>
+
+                    {/* First project here */}
+                <div className='max-w-sm rounded shadow-lg h-auto'>
+                    <img src={linkedin} alt="" className='w-full'/>
+                    <h3 className='font-poppins text-left p-2 m-2 text-lg'>Linkedin Clone</h3>
+                    <p className='font-poppins p-2 m-2'>Recreation of the famous platform for professionals and job seekers.</p>
+                    <div className='flex justify-between px-6 pt-4 pb-4'>
                         <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-90'>View Demo</a>
 
                         <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
                     </div>
                 </div>
 
-                <div className='border rounded-b-2xl shadow-xl mb-5 basis-4/12'>
-                    <img src={whatsapp} alt="" className=''/>
-                    <div className='flex justify-around p-4'>
-                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>View Demo</a>
+                    {/* Second project here */}
+                <div className='max-w-sm rounded shadow-lg'>
+                    <img src={whatsapp} alt="" className='w-full'/>
+                    <h3 className='font-poppins p-2 m-2'>Whatsapp Clone</h3>
+                    <p className='font-poppins p-2 m-2'>Chatting application to send and recieve text and multimedia in real time</p>
+
+                    <div className='flex justify-around px-6 pt-4 pb-4 '>
+
+                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80 '>View Demo</a>
 
                         <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
+
                     </div>
+
                 </div>
 
                 {/* Third project here */}
+{/* 
+                <div className='max-w-sm rounded shadow-lg'>
+                    <img src={whatsapp} alt="" className='w-full'/>
+
+                    <div className='flex justify-around px-6 pt-4 pb-4'>
+
+                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80 '>View Demo</a>
+
+                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
+
+                    </div>
+
+                </div> */}
 
             </div>
+
+                                    
         </div>
     );
 }

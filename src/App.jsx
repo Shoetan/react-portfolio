@@ -1,4 +1,6 @@
-import { useState } from 'react'
+
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Nav'
 import Projects from './components/Projects'
@@ -6,7 +8,7 @@ import Tech from './components/TechStack'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className=''>
@@ -24,6 +26,14 @@ function App() {
      {/* Projects section */}
 
      <Projects/>
+
+     {/* Contact section */}
+
+     <Contact/>
+
+     {/* Footer section */}
+
+     <Footer/>
 
     </div>
   )
