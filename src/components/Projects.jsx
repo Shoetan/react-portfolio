@@ -6,7 +6,7 @@ const Projects = () => {
     return (  
         <div>
             <div>
-                <h3 className="text-2xl font-poppins font-medium text-center mt-14 mb-5 sm:text-4xl">Projects</h3>
+                <h3 className="text-2xl font-poppins font-medium text-center mt-14 mb-5 text-gray-800 sm:text-4xl">Projects</h3>
             </div>
 
             {/* Projects card */}
@@ -18,9 +18,10 @@ const Projects = () => {
                     <h3 className='font-poppins text-left p-2 m-2 text-lg'>Linkedin Clone</h3>
                     <p className='font-poppins p-2 m-2'>Recreation of the famous platform for professionals and job seekers.</p>
                     <div className='flex justify-between px-6 pt-4 pb-4'>
-                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-90'>View Demo</a>
+                    
+                        <a href=" https://react-linkedin-clone.netlify.app/	" target='_blank' className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-90'>View Demo</a>
 
-                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
+                        <a href="https://github.com/Shoetan/react-linkedin-clone" target='_blank' className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
                     </div>
                 </div>
 
@@ -32,9 +33,9 @@ const Projects = () => {
 
                     <div className='flex justify-around px-6 pt-4 pb-4 '>
 
-                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80 '>View Demo</a>
+                        <a href="https://whatsapp-clone-black.vercel.app/" target="_blank" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80 '>View Demo</a>
 
-                        <a href="" className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
+                        <a href="https://github.com/Shoetan/whatsapp-clone" target = '_blank' className='text-lg font-poppins bg-gradient-to-br from-cyan-500 to-blue-600 px-8 rounded-full text-white hover:opacity-80'>Github</a>
 
                     </div>
 

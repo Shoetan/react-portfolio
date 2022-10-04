@@ -21,9 +21,9 @@ const Hero = () => {
 
                 {/* Social Icons from react icon library */}
                 <div className="text-5xl flex justify-center gap-16 py-4 text-gray-700">
-                    <a href="" className="hover:opacity-80" ><FaLinkedin/></a>
-                    <a href="" className="hover:opacity-80" ><FaGithub/></a>
-                    <a href="" className="hover:opacity-80" ><FaTwitterSquare/></a>
+                    <a href="https://www.linkedin.com/in/emmanuelsoetan/" target = '_blank ' className="hover:opacity-80" ><FaLinkedin/></a>
+                    <a href="https://github.com/Shoetan" target='_blank' className="hover:opacity-80" ><FaGithub/></a>
+                    <a href="https://twitter.com/immanuelsoetan" target='_blank' className="hover:opacity-80" ><FaTwitterSquare/></a>
                    
                 </div>
             </div>
