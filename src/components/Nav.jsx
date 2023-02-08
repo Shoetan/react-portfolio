@@ -15,8 +15,6 @@ const Navbar = () => {
 
                     <li><a className="text-blue-400 px-4 py-2 rounded-md hover:opacity-75 border border-blue-500/40"href="" download>Resume</a></li>
                 </ul>
-                
-                <a className="text-blue-400 px-4 py-2 rounded-md hover:opacity-75 border border-blue-500/40"href="" download>Resume</a>
 
             </div>
     
